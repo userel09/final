@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Maison Luxe - Modern Craftsmanship & Vintage Style"
+    />
+    <title>Maison Luxe | Elegant Fashion</title>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <a href="#" class="logo">Maison Luxe</a>
+
+        <div class="search-container">
+          <input
+            type="text"
+            id="searchInput"
+            class="search-input"
+            placeholder="Looking for something?"
+          />
+          <button class="search-btn" id="searchBtn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Collection</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+
+        <div class="burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Sale up to 50%</h1>
+        <p>Experience the Perfect Fusion of Craftsmanship and Vintage Style</p>
+        <a href="#products" class="btn">Shop Now</a>
+      </div>
+    </section>
+
+    <section class="products-section" id="products">
+      <h2 class="section-title">Our Collection</h2>
+      <p class="section-subtitle">Choose a category to explore</p>
+
+      <div class="category-filter">
+        <button class="category-btn active" data-category="all">
+          View All
+        </button>
+        <button class="category-btn" data-category="clothes">Clothes</button>
+        <button class="category-btn" data-category="shoes">Shoes</button>
+        <button class="category-btn" data-category="accessories">
+          Accessories
+        </button>
+      </div>
+
+      <div class="products-grid" id="productsGrid"></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-subtitle">
+        Have a question or feedback? We'd love to hear from you.
+      </p>
+
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="name" placeholder="Full Name" required />
+        <input type="email" id="email" placeholder="Email Address" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2026 Maison Luxe | Designed by Elene Buchukuri</p>
+      </div>
+    </footer>
+
+    <div class="modal" id="modal">
+      <div class="modal-box">
+        <div class="modal-icon" style="font-size: 50px; color: #2ecc71">
+          <ion-icon name="checkmark-circle-outline"></ion-icon>
+        </div>
+        <h3>Success!</h3>
+        <p style="color: var(--gray); margin-bottom: 25px">
+          Your message has been sent successfully. We will get back to you soon.
+        </p>
+        <button class="btn" id="closeModal">Close</button>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
