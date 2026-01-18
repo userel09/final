@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Grey trousers",
+      "category": "clothes",
+      "price": 119,
+      "oldPrice": 159,
+      "rating": 4.8,
+      "img": "https://i.pinimg.com/736x/3b/b7/0a/3bb70a814d729f37a8c8fec7a38b89d2.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Genuine leather loafers",
+      "category": "shoes",
+      "price": 249,
+      "oldPrice": 329,
+      "rating": 4.7,
+      "img": "https://i.pinimg.com/474x/db/86/0d/db860d4981956136b36f43961e621845.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Leather Coat",
+      "category": "clothes",
+      "price": 259,
+      "oldPrice": 359,
+      "rating": 4.8,
+      "img": "https://i.pinimg.com/1200x/64/38/bd/6438bdedfe6049e0a9c1ef833dc99626.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Kitten heels",
+      "category": "shoes",
+      "price": 129,
+      "oldPrice": 179,
+      "rating": 4.5,
+      "img": "https://i.pinimg.com/736x/51/1c/f6/511cf6495723187b767ad4934cab622e.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Summer Dress",
+      "category": "clothes",
+      "price": 59,
+      "oldPrice": 119,
+      "rating": 4.6,
+      "img": "https://i.pinimg.com/1200x/06/c6/ab/06c6abf33a2ed35d2da1e88462c863b0.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Biker Boots",
+      "category": "shoes",
+      "price": 129,
+      "oldPrice": 259,
+      "rating": 4.9,
+      "img": "https://i.pinimg.com/736x/47/32/40/47324058941bd2723e1166f26af3dd6a.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Genuine leather coat",
+      "category": "clothes",
+      "price": 189,
+      "oldPrice": 299,
+      "rating": 4.9,
+      "img": "https://i.pinimg.com/736x/84/0e/b4/840eb4db93837437233e37f5c3192ad5.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Chic bag",
+      "category": "accessories",
+      "price": 79,
+      "oldPrice": 119,
+      "rating": 4.9,
+      "img": "https://i.pinimg.com/736x/71/ac/69/71ac69a39df2152c791de48441c4b647.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Mini skirt",
+      "category": "clothes",
+      "price": 59,
+      "oldPrice": 109,
+      "rating": 4.7,
+      "img": "https://i.pinimg.com/1200x/d8/78/bc/d878bc0bef2fb98ed65cb1f3c5c0bb5c.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Ballerina flats",
+      "category": "shoes",
+      "price": 109,
+      "oldPrice": 159,
+      "rating": 4.8,
+      "img": "https://i.pinimg.com/1200x/d7/e6/a4/d7e6a43f419a957aeb791c37df75557f.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Grey scarf",
+      "category": "clothes",
+      "price": 49,
+      "oldPrice": 89,
+      "rating": 4.9,
+      "img": "https://i.pinimg.com/736x/e2/06/45/e206458a592ee4b75abb6de3a2a1a8bd.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Bracelets",
+      "category": "accessories",
+      "price": 59,
+      "oldPrice": 109,
+      "rating": 4.6,
+      "img": "https://i.pinimg.com/736x/79/58/4e/79584ebd198f23217ceb18950d523a57.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Sunglasses",
+      "category": "accessories",
+      "price": 79,
+      "oldPrice": 129,
+      "rating": 4.7,
+      "img": "https://i.pinimg.com/1200x/a0/85/c6/a085c67b0a6393d83e0ee46d431145e4.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Maxi dress",
+      "category": "clothes",
+      "price": 89,
+      "oldPrice": 149,
+      "rating": 4.5,
+      "img": "https://i.pinimg.com/736x/20/a9/9e/20a99e977cf0f0d3e67ff23ead135903.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Genuine leather belt",
+      "category": "accessories",
+      "price": 69,
+      "oldPrice": 99,
+      "rating": 4.8,
+      "img": "https://i.pinimg.com/736x/50/00/eb/5000eb1f762d14df2341628fec7bb18e.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Genuine leather bag",
+      "category": "accessories",
+      "price": 159,
+      "oldPrice": 259,
+      "rating": 4.9,
+      "img": "https://i.pinimg.com/1200x/3b/09/21/3b0921644fa0a41eff06051a5961ad9e.jpg"
+    }
+  ]
+}
